@@ -5,7 +5,7 @@ import os
 from tqdm import tqdm
 
 
-TOKEN = os.getenv("OPENAI_API_KEY")
+TOKEN = os.getenv("GITHUB_TOKEN")
 
 def fetch_code_snippet(repo_url, commit_hash, file_path, start_line, end_line, request_count):
 
